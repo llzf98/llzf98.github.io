@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&display=swap');
+
+html, body {
+    overflow-x: hidden;
+}
+
+/**
+ * Enable smooth scrolling on the whole document
+ */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 70px;
+}
+@media (max-width: 979px) {
+    body {
+        padding-top: 0px;
+    }
+}
+
+/* @import "~bootstrap/dist/css/bootstrap.css"; */
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar-title {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.navbar-btn {
+    font-weight: 700;
+    color: black !important;
+}
+
+.btn-primary {
+    margin-top: 45px;
+    border: 1px solid #F6E05E !important;
+    background-color: #F6E05E !important;
+    border-radius: 3rem !important;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.navbar-btn:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.intro-title {
+    font-weight: 800;
+}
+  
+@-webkit-keyframes animateWave {
+    0% {
+        transform: scale(1, 0);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes animateWave {
+    0% {
+        transform: scale(1, 0);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.wave-bg {
+    display: block;
+    height: 220px;
+    width: 100%;
+    min-width: 600px;
+    transform-origin: top;
+    -webkit-animation: animateWave 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+            animation: animateWave 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+    background-image: url("images/wave-bg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-light {
+    background-color: #f4f6f8!important;
+}
+
+.progress-bar {
+    background:#F6E05E !important;
+    border-radius: 20px;
+}
+
+.progress {
+    border-radius: 20px;
+}
+

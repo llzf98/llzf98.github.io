@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+    
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <script src="https://kit.fontawesome.com/155f06ebe4.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://kit.fontawesome.com/155f06ebe4.css" crossorigin="anonymous"> -->
+
+    <title>Zifeng Lin's homepage</title>
+  </head>
+
+  <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script> -->
+
+  <body>
+    <!-- Navigation Section -->
+    <section id="nav-section">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+        <div class="container py-1">
+          <a href="#" class="link-dark navbar-brand mb-0 navbar-title">Zifeng Lin</a>
+  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">
+                  <span class="navbar-btn text-dark">About</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#specialities">
+                  <span class="navbar-btn text-dark">Specialities</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">
+                  <span class="navbar-btn text-dark">Skills</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">
+                  <span class="navbar-btn text-dark">Experience</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Introduction Section -->
+    <div class="page-content bg-light py-3">
+      <div class="introduction-content">
+        <div class="cover bg-light">
+          <div class="container px-3">
+            <div class="row">
+              <div class="col-lg-6 p-2">
+                <img class="img-fluid" src="images/programming.svg">
+              </div>
+              <div class="col-lg-1"></div>
+              <div class="col-lg-5">
+                <div class="mt-5">
+                  <p class="text-dark" style="font-size: large;">HELLO!</p>
+                  <p class="text-dark mb-4" style="font-size: xxx-large; font-weight: 700;">I'm Zifeng Lin</p>
+                  <p class="text-dark" style="font-size: large;">
+                    Computer Science @ USC <br> 
+                    <!-- Incoming SWE Intern @ Cowbell Cyber <br>  -->
+                    UIUC Alumni
+                  </p>
+                </div>
+                <ul class="nav justify-content-left">
+                  <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/zifeng-ethan-lin/" target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://github.com/llzf98" target="_blank" style="margin: 20px">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="bi bi-github" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="mailto:zifengli@usc.edu">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                  <button type="button" class="btn btn-primary shadow-sm hover-effect">
+                    <a href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/247af2b1-4c70-457f-903f-4f0347c07a0e/ZifengLin-Resume-Fall.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230309%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230309T212513Z&X-Amz-Expires=86400&X-Amz-Signature=00572c7b28d9dd31866ab8218650d0d13180ab9cfde97741dc9c23871ff4dd0a&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22ZifengLin-Resume-Fall.pdf%22&x-id=GetObject" style="text-decoration:none;" target="_blank">
+                      <div style="font-size: medium; 
+                                color: black; 
+                                font-weight: 600; 
+                                padding: 5px 24px;
+                                ">
+                      Resume
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wave-bg"></div>
+    </div>
+
+    <!-- About -->
+    <div class="section pt-4 px-3 px-lg-4 mb-5" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 offset-md-2">
+            <h2 class="h4 my-3" style="font-weight: 600;">Hello! I’m Zifeng Lin.</h2>
+            <p> 
+              I am currently a graduate student at USC majoring in Computer Science.
+              Before USC, I graduated from the University of Illinois Urbana-Champaign with 
+              a Bachelor's degree in 
+              <a href="https://math.illinois.edu/academics/actuarial-science" target="_blank" style="text-decoration: none;">
+                Actuarial Science
+              </a> 
+              and Statistics.
+              <br><br>
+              I am experienced in Backend/Full-stack web development. 
+              I am also solid in writing clean, efficient code using Java, C/C++, Python and JavaScript.
+              <br><br>
+              I am an incoming Software Engineer Intern at <a href="https://cowbell.insure/" target="_blank" style="text-decoration: none;">Cowbell Cyber</a> 
+              for Summer 2023. I will be focusing on backend microservices.
+              <br><br>
+              <!-- Please feel free to connect with me on LinkedIn! -->
+            </p>
+          </div>
+          <div class="col-md-5 offset-md-1">
+            <img class="img-fluid" style="width: 300px; border-radius: 30px;" src="images/profile.jpeg">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Specialities -->
+    <div class="section px-3 px-lg-4 pt-5 mb-5" id="specialities">
+      <div class="container-narrow">
+        <div class="text-center mb-5">
+          <h2 class="marker marker-center" style="font-weight: 700;">My Specialities</h2>
+        </div>
+        <!-- <div class="text-center">
+          <p class="mx-auto mb-3" style="max-width:600px"> I had plenty of experience in various of domains in software development</p>
+        </div> -->
+          <div class="container-narrow">
+            <div class="row">
+              <div class="col-md-3"></div>
+              <div class="col-md-2 text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="200"><img class="mb-2" src="images/specialities/backend.svg" width="96" height="96" alt="graphic design">
+                <div class="h5 mt-3" style="font-weight: 700;">Backend Development</div>
+              </div>
+              <div class="col-md-2 text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="400"><img class="mb-2" src="images/specialities/web-design.svg" width="96" height="96" alt="app development">
+                <div class="h5 mt-3" style="font-weight: 700;">Frontend Development</div>
+              </div>
+              <div class="col-md-2 text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="400"><img class="mb-2" src="images/specialities/database.svg" width="96" height="96" alt="app development">
+                <div class="h5 mt-3" style="font-weight: 700;">Cloud &amp; Database</div>
+              </div>
+              <div class="col-md-3"></div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="section px-3 px-lg-4 pt-5 mb-5" id="skills">
+      <div class="container-narrow">
+        <div class="text-center mb-3">
+          <h2 class="marker marker-center" style="font-weight: 700;">My Skills</h2>
+        </div>
+        <div class="text-center">
+          <p class="mx-auto mb-4" style="max-width:600px">
+            I am a quick learner and specialize in multitude of skills for Web Development
+          </p>
+        </div>
+        <div class="container-lg bg-light px-5 py-5">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="py-2">
+                <div class="d-flex text-small fw-bolder"><span class="me-auto">Java</span><span>90%</span></div>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="py-2">
+                <div class="d-flex text-small fw-bolder"><span class="me-auto">Python</span><span>80%</span></div>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width:80%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="py-2">
+                <div class="d-flex text-small fw-bolder"><span class="me-auto">JavaScript</span><span>80%</span></div>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="py-2">
+                <div class="d-flex text-small fw-bolder"><span class="me-auto">C++</span><span>60%</span></div>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 offset-md-2">
+              <div class="py-2">
+                <div class="d-flex text-small fw-bolder"><span class="me-auto">Backend &amp; Microservice</span><span>85%</span></div>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="py-2">
+                <div class="d-flex text-small fw-bolder"><span class="me-auto">RESTful API</span><span>85%</span></div>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="py-2">
+                <div class="d-flex text-small fw-bolder"><span class="me-auto">Database Technologies</span><span>75%</span></div>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="py-2">
+                <div class="d-flex text-small fw-bolder"><span class="me-auto">Cloud Technologies</span><span>70%</span></div>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="section px-3 px-lg-4 pt-5 mb-5" id="experience">
+      <div class="container-lg">
+        <div class="text-center mb-5">
+          <h2 class="marker marker-center" style="font-weight: 700;">Experience</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-3 aos-init aos-animate" data-aos="fade-right" data-aos-delay="100">
+              <div class="card-header px-4 py-3">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h3 class="h5 mb-1" style="font-weight: 700;">Incoming Software Engineer Intern</h3>
+                    <div class="text-muted text-small">Cowbell Cyber - Pleasanton,CA <small>(2023.5-2023.8)</small></div>
+                  </div>
+                  <img src="images/specialities/backend.svg" width="48" height="48" alt="data-center">
+                </div>
+              </div>
+              <div class="card-body px-3 py-2">
+                <p>SaaS Platform, Backend & Microservice</p>
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3 aos-init aos-animate" data-aos="fade-left" data-aos-delay="300">
+              <div class="card-header px-4 py-3">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h3 class="h5 mb-1" style="font-weight: 700;">Online Food Ordering System<small>, Full-stack</small></h3>
+                    <div class="text-muted text-small">University of Southern California <small>(2022.3-2022.5)</small></div>
+                  </div>
+                  <img src="images/specialities/full-stack.svg" width="48" height="48" alt="full-stack">
+                </div>
+              </div>
+              <div class="card-body px-3 py-2">
+                <p>Built a web application using React with Ant Design for users to add items to cart and place orders</p>
+                <p>Implemented REST APIs via Spring MVC including registration, menu searching and ordering, checkout etc</p>
+                <p>Utilized Hibernate(ORM) to access and operate the data storage for menu, restaurants etc. on Amazon RDS</p>
+                <p>Provided both authentication and authorization via Spring Security to protect the application</p>
+                <p>Used the Spring Framework Core Technologies to loosely decouple all the components in the application</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3 aos-init aos-animate" data-aos="fade-right" data-aos-delay="200">
+              <div class="card-header px-4 py-3">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h3 class="h5 mb-1" style="font-weight: 700;">Social Network Application<small>, Full-stack</small></h3>
+                    <div class="text-muted text-small">University of Southern California <small>(2022.1-2022.3)</small></div>
+                  </div>
+                  <img src="images/specialities/full-stack.svg" width="48" height="48" alt="full-stack">
+                </div>
+              </div>
+              <div class="card-body px-3 py-2">
+                <p>Designed and developed a social network web application with React for users to create, search and browse posts</p>
+                <p>Launched a scalable back-end service in Go to handle posts and deployed to Google Cloud App Engine</p>
+                <p>Improved the authentication using token-based registration/login/logout flow with React Router v4 and
+                  server-side user authentication with JWT
+                </p>
+                <p>Utilized Elasticsearch (deployed to GCE) to provide search functions such that user can search recent posts and
+                  list personal posts
+                </p>
+                <br><br><br>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3 aos-init aos-animate" data-aos="fade-left" data-aos-delay="400">
+              <div class="card-header px-4 py-3">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h3 class="h5 mb-1" style="font-weight: 700;">Business Search Platform<small>, Frontend & Mobile</small></h3>
+                    <div class="text-muted text-small">University of Southern California <small>(2022.9-2022.11)</small></div>
+                  </div>
+                  <img src="images/specialities/web-design.svg" width="48" height="48" alt="web-design">
+                </div>
+              </div>
+              <div class="card-body px-3 py-2">
+                <p>Developed a Google Cloud based web application with Angular and Node.js for business search</p>
+                <p>Implemented a back-end service with Node.js Express framework to fetch business details from Yelp server
+                  through Yelp Fusion API based on user-provided search criteria</p>
+                <p>Utilized HttpClientModule in Angular to retrieve business owners’ and user’s geolocation through Google
+                  Geocoding API and ipinfo.io API</p>
+                <p>Built a responsive front-end website with Angular and Bootstrap for users to view business details, manage
+                  bookings, and share contents on social media</p>
+                <p>Implemented all features on iOS Platform using Swift and MVVM architecture</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="pt-4 pb-4 text-center bg-light">
+      <div class="container">
+        <div class="my-5">
+          <p class="my-3" style="font-size: large;">Maintained by Zifeng Lin</p>
+          <div class="social-nav">
+            <nav role="navigation">
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a href="https://www.linkedin.com/in/zifeng-ethan-lin/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="bi bi-linkedin" viewBox="0 0 16 16">
+                      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                    </svg>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://github.com/llzf98" target="_blank" style="margin: 20px">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="bi bi-github" viewBox="0 0 16 16">
+                      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="mailto:zifengli@usc.edu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="bi bi-envelope" viewBox="0 0 16 16">
+                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+  </body>
+</html>
